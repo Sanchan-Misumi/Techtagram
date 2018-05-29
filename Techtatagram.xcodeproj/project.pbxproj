@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE82415920BCDD040065C6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82415820BCDD040065C6BE /* AppDelegate.swift */; };
+		EE82415B20BCDD040065C6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82415A20BCDD040065C6BE /* ViewController.swift */; };
+		EE82415E20BCDD040065C6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE82415C20BCDD040065C6BE /* Main.storyboard */; };
+		EE82416020BCDD040065C6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE82415F20BCDD040065C6BE /* Assets.xcassets */; };
+		EE82416320BCDD040065C6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE82416120BCDD040065C6BE /* LaunchScreen.storyboard */; };
+		EE82416E20BCDD040065C6BE /* TechtatagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82416D20BCDD040065C6BE /* TechtatagramTests.swift */; };
+		EE82417920BCDD040065C6BE /* TechtatagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82417820BCDD040065C6BE /* TechtatagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE82416A20BCDD040065C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE82414D20BCDD030065C6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE82415420BCDD040065C6BE;
+			remoteInfo = Techtatagram;
+		};
+		EE82417520BCDD040065C6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE82414D20BCDD030065C6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE82415420BCDD040065C6BE;
+			remoteInfo = Techtatagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE82415520BCDD040065C6BE /* Techtatagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techtatagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE82415820BCDD040065C6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE82415A20BCDD040065C6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE82415D20BCDD040065C6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE82415F20BCDD040065C6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE82416220BCDD040065C6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE82416420BCDD040065C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE82416920BCDD040065C6BE /* TechtatagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtatagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE82416D20BCDD040065C6BE /* TechtatagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtatagramTests.swift; sourceTree = "<group>"; };
+		EE82416F20BCDD040065C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE82417420BCDD040065C6BE /* TechtatagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtatagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE82417820BCDD040065C6BE /* TechtatagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtatagramUITests.swift; sourceTree = "<group>"; };
+		EE82417A20BCDD040065C6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE82415220BCDD040065C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE82416620BCDD040065C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE82417120BCDD040065C6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE82414C20BCDD030065C6BE = {
+			isa = PBXGroup;
+			children = (
+				EE82415720BCDD040065C6BE /* Techtatagram */,
+				EE82416C20BCDD040065C6BE /* TechtatagramTests */,
+				EE82417720BCDD040065C6BE /* TechtatagramUITests */,
+				EE82415620BCDD040065C6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE82415620BCDD040065C6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE82415520BCDD040065C6BE /* Techtatagram.app */,
+				EE82416920BCDD040065C6BE /* TechtatagramTests.xctest */,
+				EE82417420BCDD040065C6BE /* TechtatagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE82415720BCDD040065C6BE /* Techtatagram */ = {
+			isa = PBXGroup;
+			children = (
+				EE82415820BCDD040065C6BE /* AppDelegate.swift */,
+				EE82415A20BCDD040065C6BE /* ViewController.swift */,
+				EE82415C20BCDD040065C6BE /* Main.storyboard */,
+				EE82415F20BCDD040065C6BE /* Assets.xcassets */,
+				EE82416120BCDD040065C6BE /* LaunchScreen.storyboard */,
+				EE82416420BCDD040065C6BE /* Info.plist */,
+			);
+			path = Techtatagram;
+			sourceTree = "<group>";
+		};
+		EE82416C20BCDD040065C6BE /* TechtatagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE82416D20BCDD040065C6BE /* TechtatagramTests.swift */,
+				EE82416F20BCDD040065C6BE /* Info.plist */,
+			);
+			path = TechtatagramTests;
+			sourceTree = "<group>";
+		};
+		EE82417720BCDD040065C6BE /* TechtatagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE82417820BCDD040065C6BE /* TechtatagramUITests.swift */,
+				EE82417A20BCDD040065C6BE /* Info.plist */,
+			);
+			path = TechtatagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE82415420BCDD040065C6BE /* Techtatagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE82417D20BCDD040065C6BE /* Build configuration list for PBXNativeTarget "Techtatagram" */;
+			buildPhases = (
+				EE82415120BCDD040065C6BE /* Sources */,
+				EE82415220BCDD040065C6BE /* Frameworks */,
+				EE82415320BCDD040065C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Techtatagram;
+			productName = Techtatagram;
+			productReference = EE82415520BCDD040065C6BE /* Techtatagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE82416820BCDD040065C6BE /* TechtatagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE82418020BCDD040065C6BE /* Build configuration list for PBXNativeTarget "TechtatagramTests" */;
+			buildPhases = (
+				EE82416520BCDD040065C6BE /* Sources */,
+				EE82416620BCDD040065C6BE /* Frameworks */,
+				EE82416720BCDD040065C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE82416B20BCDD040065C6BE /* PBXTargetDependency */,
+			);
+			name = TechtatagramTests;
+			productName = TechtatagramTests;
+			productReference = EE82416920BCDD040065C6BE /* TechtatagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE82417320BCDD040065C6BE /* TechtatagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE82418320BCDD040065C6BE /* Build configuration list for PBXNativeTarget "TechtatagramUITests" */;
+			buildPhases = (
+				EE82417020BCDD040065C6BE /* Sources */,
+				EE82417120BCDD040065C6BE /* Frameworks */,
+				EE82417220BCDD040065C6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE82417620BCDD040065C6BE /* PBXTargetDependency */,
+			);
+			name = TechtatagramUITests;
+			productName = TechtatagramUITests;
+			productReference = EE82417420BCDD040065C6BE /* TechtatagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE82414D20BCDD030065C6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maho Misumi";
+				TargetAttributes = {
+					EE82415420BCDD040065C6BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE82416820BCDD040065C6BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE82415420BCDD040065C6BE;
+					};
+					EE82417320BCDD040065C6BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE82415420BCDD040065C6BE;
+					};
+				};
+			};
+			buildConfigurationList = EE82415020BCDD030065C6BE /* Build configuration list for PBXProject "Techtatagram" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE82414C20BCDD030065C6BE;
+			productRefGroup = EE82415620BCDD040065C6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE82415420BCDD040065C6BE /* Techtatagram */,
+				EE82416820BCDD040065C6BE /* TechtatagramTests */,
+				EE82417320BCDD040065C6BE /* TechtatagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE82415320BCDD040065C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82416320BCDD040065C6BE /* LaunchScreen.storyboard in Resources */,
+				EE82416020BCDD040065C6BE /* Assets.xcassets in Resources */,
+				EE82415E20BCDD040065C6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE82416720BCDD040065C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE82417220BCDD040065C6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE82415120BCDD040065C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82415B20BCDD040065C6BE /* ViewController.swift in Sources */,
+				EE82415920BCDD040065C6BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE82416520BCDD040065C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82416E20BCDD040065C6BE /* TechtatagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE82417020BCDD040065C6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE82417920BCDD040065C6BE /* TechtatagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE82416B20BCDD040065C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE82415420BCDD040065C6BE /* Techtatagram */;
+			targetProxy = EE82416A20BCDD040065C6BE /* PBXContainerItemProxy */;
+		};
+		EE82417620BCDD040065C6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE82415420BCDD040065C6BE /* Techtatagram */;
+			targetProxy = EE82417520BCDD040065C6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE82415C20BCDD040065C6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE82415D20BCDD040065C6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE82416120BCDD040065C6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE82416220BCDD040065C6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE82417B20BCDD040065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE82417C20BCDD040065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE82417E20BCDD040065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Techtatagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.Techtatagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE82417F20BCDD040065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Techtatagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.Techtatagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE82418120BCDD040065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtatagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.TechtatagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techtatagram.app/Techtatagram";
+			};
+			name = Debug;
+		};
+		EE82418220BCDD040065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtatagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.TechtatagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techtatagram.app/Techtatagram";
+			};
+			name = Release;
+		};
+		EE82418420BCDD040065C6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtatagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.TechtatagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Techtatagram;
+			};
+			name = Debug;
+		};
+		EE82418520BCDD040065C6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtatagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.TechtatagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Techtatagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE82415020BCDD030065C6BE /* Build configuration list for PBXProject "Techtatagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE82417B20BCDD040065C6BE /* Debug */,
+				EE82417C20BCDD040065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE82417D20BCDD040065C6BE /* Build configuration list for PBXNativeTarget "Techtatagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE82417E20BCDD040065C6BE /* Debug */,
+				EE82417F20BCDD040065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE82418020BCDD040065C6BE /* Build configuration list for PBXNativeTarget "TechtatagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE82418120BCDD040065C6BE /* Debug */,
+				EE82418220BCDD040065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE82418320BCDD040065C6BE /* Build configuration list for PBXNativeTarget "TechtatagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE82418420BCDD040065C6BE /* Debug */,
+				EE82418520BCDD040065C6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE82414D20BCDD030065C6BE /* Project object */;
+}
